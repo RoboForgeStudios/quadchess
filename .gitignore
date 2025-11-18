@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Build
+build/
+dist/
+out/
+
+# Logs
+*.log
+
