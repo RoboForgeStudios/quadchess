@@ -1,15 +1,29 @@
 @echo off
-echo Copying screenshots to GitHub repo...
+echo ================================================
+echo Copying all screenshots to GitHub repo...
+echo ================================================
+echo.
 
 if not exist screenshots mkdir screenshots
 
-copy "..\..\..\landing\public\screenshots\image 1078.png" "screenshots\main-menu.png"
-copy "..\..\..\landing\public\screenshots\image 1081.png" "screenshots\four-player-battle.png"
-copy "..\..\..\landing\public\screenshots\image 1080.png" "screenshots\fog-of-war.png"
-copy "..\..\..\landing\public\screenshots\image 1088.png" "screenshots\in-game-action.png"
+echo Copying 11 screenshots...
+copy "..\..\..\landing\public\screenshots\image 1078.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1079.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1080.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1081.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1082.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1083.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1084.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1085.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1086.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1087.png" "screenshots\"
+copy "..\..\..\landing\public\screenshots\image 1088.png" "screenshots\"
 
 echo.
-echo Screenshots copied successfully!
+echo ================================================
+echo All 11 screenshots copied successfully!
+echo ================================================
+echo.
+echo Next step: run push_to_github.bat
 echo.
 pause
-

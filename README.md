@@ -48,16 +48,33 @@ Players make their moves **simultaneously**, while parts of the board are hidden
 <div align="center">
 
 ### Main Menu
-![Main Menu](screenshots/main-menu.png)
+![Main Menu](screenshots/image%201078.png)
 
-### Four-Player Battle  
-![Four-Player Battle](screenshots/four-player-battle.png)
+### Create Game Screen
+![Create Game](screenshots/image%201079.png)
 
-### Fog of War
-![Fog of War](screenshots/fog-of-war.png)
+### Game Statistics
+![Game Stats](screenshots/image%201080.png)
 
-### In-Game Action
-![In-Game Action](screenshots/in-game-action.png)
+### Four-Player Battle Board
+![Game Board](screenshots/image%201081.png)
+
+### Circular Chess Board
+![Chess Board](screenshots/image%201082.png)
+
+### Chess Pieces Gallery
+
+<table>
+  <tr>
+    <td><img src="screenshots/image%201083.png" width="200"/><br/><b>Pawn</b></td>
+    <td><img src="screenshots/image%201084.png" width="200"/><br/><b>Knight</b></td>
+    <td><img src="screenshots/image%201086.png" width="200"/><br/><b>Rook</b></td>
+    <td><img src="screenshots/image%201087.png" width="200"/><br/><b>Bishop</b></td>
+  </tr>
+</table>
+
+### In-Game Menu
+![In-Game Menu](screenshots/image%201088.png)
 
 </div>
 
